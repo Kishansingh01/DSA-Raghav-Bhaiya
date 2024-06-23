@@ -1,0 +1,10 @@
+CIRCULAR LINKED LIST
+In circular linked list tail's head is never null,Tail will equals to head.And head previous is 
+also equal to Tail and it can be access from previous and after also.
+
+To insert at a tail in doubly linked list 
+insert AT TAil(50);
+tail->next=t;
+t->prev=tail;
+t->next=head;
+head->prev=t;
